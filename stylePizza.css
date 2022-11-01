@@ -671,6 +671,119 @@ a.news-read-more {
 }
 
 
+/* Media Query */
+@media (max-width: 1200px) {
+    .nav {
+        border-bottom: none;
+        background: #000;
+    }
+    .links {
+        display: none;
+    }
+    .header-contect {
+        min-width: 100%;
+    }
+    .header-contect-name {
+        font-size: 3rem;
+    }
+    .panal-1, .panal-2, .panal-3 {
+        background-size: 350%;
+    }
+    .header-contect-description {
+        font-size: 1rem;
+    }
+    .fa-bars {
+        display: block;
+        color: #fff;
+        float: right;
+        font-size: 2rem;
+        cursor: pointer;
+        margin: 20px;
+    }
+    .menu {
+        display: block;
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: 50%;
+        background: #383939;
+        right: -50%;
+        transition: .5s;
+    }
+    .fa-times {
+        float: right;
+        color: #fff;
+        margin: 20px;
+        font-size: 1.3rem;
+        cursor: pointer;
+    }
+    .menu ul {
+        margin-top: 70px;
+    }
+    .menu ul li {
+        list-style-type: none;
+        margin-top: 30px;
+    }
+    .menu ul li a {
+        color: #fff;
+        font-size: 1.5rem;
+        text-transform: capitalize;
+    }
+    .section {
+        padding: 50px 10px;
+    }
+    .about-img {
+        margin: 0;
+        height: 100%;
+        width: 100%;
+    }
+    .about-image {
+        margin: 50px 0;
+    }
+    .services-item {
+        width: 100%;
+        margin: 50px 0 0 0;
+    }
+    .kenya {
+        height: 1000px;
+        overflow: visible;
+    }
+    .kenya-content {
+        padding: 0 30px;
+    }
+    .img-slider {
+        display: none;
+    }
+    .img-slider-sm img {
+        width: 70%;
+        box-shadow: 0 0 50px 0 #000;
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .img-slider-sm {
+        display: block;
+        position: relative;
+        height: 50%;
+    }
+    .buy {
+        background-size: 300%;
+        background-position-x: center;
+    }
+    .news-item {
+        display: block;
+        width: 100%;
+        margin: 50px auto 0 auto;
+    }
+    .news-footer {
+        position: absolute;
+        bottom: 50px;
+        left: 50px;
+    }
+    .footer {
+        background-size: 200%;
+    }
+}
 
 
 
