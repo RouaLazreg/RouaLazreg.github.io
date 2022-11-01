@@ -1,0 +1,14 @@
+text-decoration: none; //to remove the underline
+display: inline-block; //to inline
+body { margin: 0;} //to remove the white edges
+line-height: 50%; //to change the space between the line
+transform: translate(0%, -400%); //to translate
+
+display: block;
+position: absolute; // using to move <a> text
+
+padding to create a background shape dimentions
+positon : absolute ; //text or image or ... above something
+
+
+
